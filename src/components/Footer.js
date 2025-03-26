@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <p>
-        ©2024 Secured By <a href="https://www.giftedtech.my.id">GIFTED TECH</a>
+        ©2025 POWERED BY <a href="https://mpesa-pay-nine.vercel.app/">CASEYRHODES TECH</a>
       </p>
     </footer>
   );
