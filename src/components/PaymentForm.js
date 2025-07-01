@@ -35,10 +35,10 @@ const PaymentForm = ({ selectedMerchant, onMerchantSelect, onSubmit }) => {
         <label style={{ display: "block" }}>Select a Merchant to Pay To</label>
         <div className="merchant-list">
           {[
-            { id: "CASEYRHODES_TILL", name: "Caseyrhodes", till: "0112192119", logo: "https://upload.wikimedia.org/wikipedia/commons/1/15/M-PESA_LOGO-01.svg" },
-            { id: "CASEYRHODES_TILL", name: "Caseyrhodes", till: "45****18", logo: "https://upload.wikimedia.org/wikipedia/commons/1/15/M-PESA_LOGO-01.svg" },
-            { id: "CASEYRHODES_BANK", name: "Caseyrhodes", till: "77****24", logo: "https://files.catbox.moe/lw0fit.png" },
-            { id: "CASEYRHODES_TILL", name: "Caseyrhodes", till: "45****86", logo: "https://upload.wikimedia.org/wikipedia/commons/1/15/M-PESA_LOGO-01.svg" },
+            { id: "CONFRONTER_TILL", name: "Franklin", till: "0793908571", logo: "https://upload.wikimedia.org/wikipedia/commons/1/15/M-PESA_LOGO-01.svg" },
+            { id: "CONFRONTER_TILL", name: "Confronter", till: "45****18", logo: "https://upload.wikimedia.org/wikipedia/commons/1/15/M-PESA_LOGO-01.svg" },
+            { id: "CONFRONTER_BANK", name: "Confronter", till: "77****24", logo: "https://files.catbox.moe/lw0fit.png" },
+            { id: "CONFRONTER_TILL", name: "Confronter", till: "45****86", logo: "https://upload.wikimedia.org/wikipedia/commons/1/15/M-PESA_LOGO-01.svg" },
           ].map((merchant) => (
             <div
               key={merchant.id}
