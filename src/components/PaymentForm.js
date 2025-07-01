@@ -11,7 +11,7 @@ const PaymentForm = ({ selectedMerchant, onMerchantSelect, onSubmit }) => {
 
   return (
     <div className="payment-container">
-      <h3>Pay to Gifted Tech</h3>
+      <h3>Pay to Confronter</h3>
       <p>Enter your Phone Number and Amount to make Payment Securely and Conveniently at no Costs.</p>
       <form onSubmit={handleSubmit}>
         <label htmlFor="phone">Phone Number</label>
@@ -35,7 +35,7 @@ const PaymentForm = ({ selectedMerchant, onMerchantSelect, onSubmit }) => {
         <label style={{ display: "block" }}>Select a Merchant to Pay To</label>
         <div className="merchant-list">
           {[
-            { id: "CONFRONTER_TILL", name: "Franklin", till: "0793908571", logo: "https://upload.wikimedia.org/wikipedia/commons/1/15/M-PESA_LOGO-01.svg" },
+            { id: "CONFRONTER_TILL", name: "Franklin", till: "6054766", logo: "https://upload.wikimedia.org/wikipedia/commons/1/15/M-PESA_LOGO-01.svg" },
             { id: "CONFRONTER_TILL", name: "Confronter", till: "45****18", logo: "https://upload.wikimedia.org/wikipedia/commons/1/15/M-PESA_LOGO-01.svg" },
             { id: "CONFRONTER_BANK", name: "Confronter", till: "77****24", logo: "https://files.catbox.moe/lw0fit.png" },
             { id: "CONFRONTER_TILL", name: "Confronter", till: "45****86", logo: "https://upload.wikimedia.org/wikipedia/commons/1/15/M-PESA_LOGO-01.svg" },
