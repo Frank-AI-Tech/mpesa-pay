@@ -35,11 +35,7 @@ const PaymentForm = ({ selectedMerchant, onMerchantSelect, onSubmit }) => {
         <label style={{ display: "block" }}>Select a Merchant to Pay To</label>
         <div className="merchant-list">
           {[
-            { id: "CONFRONTER_TILL", name: "Franklin", till: "6054766", logo: "https://upload.wikimedia.org/wikipedia/commons/1/15/M-PESA_LOGO-01.svg" },
-            { id: "CONFRONTER_TILL", name: "Confronter", till: "45****18", logo: "https://upload.wikimedia.org/wikipedia/commons/1/15/M-PESA_LOGO-01.svg" },
-            { id: "CONFRONTER_BANK", name: "Confronter", till: "6054766", logo: "https://files.catbox.moe/lw0fit.png" },
-            { id: "CONFRONTER_TILL", name: "Confronter", till: "45****86", logo: "https://upload.wikimedia.org/wikipedia/commons/1/15/M-PESA_LOGO-01.svg" },
-          ].map((merchant) => (
+            { id: "CONFRONTER_TILL", name: "Franklin", till: "6054766", logo: "https://upload.wikimedia.org/wikipedia/commons/1/15/M-PESA_LOGO-01.svg" }, ].map((merchant) => (
             <div
               key={merchant.id}
               className={`merchant-option ${selectedMerchant === merchant.id ? "selected" : ""}`}
